@@ -23,10 +23,9 @@
 1. n8n
 2. PostgreSQL
 3. Python
-4. JavaScript / Node.js
-5. APIs (HTTP, JSON, REST, webhooks)
-6. Git
-7. Docker
+4. APIs (HTTP, JSON, REST, webhooks)
+5. Git
+6. Docker
 
 # Projetos
 
@@ -55,6 +54,13 @@ Plano:
 - Criou repositório local e remoto (GitHub)
 - Entendeu: staging area, commits, `--` vs `-`, `origin`
 - Criou primeiro README.md com Nano
+
+# Regras para o Professor (IA)
+
+- **Explicar CADA comando antes de mandar executar** — Vitor está aprendendo, não adianta mandar código sem explicar. Pra cada comando: o que faz, cada parte (flags, argumentos), o que vai acontecer depois de rodar.
+- **Nunca pular etapas** — ir passo a passo, confirmar antes de avançar
+- **Contexto real sempre** — mostrar como cada coisa se conecta com o problema da loja da mãe
+- **Preferir comandos que mostram resultado visual** (ex: SELECT no psql, listar tabelas) em vez de comandos silenciosos
 
 # Notas Importantes
 
