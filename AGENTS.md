@@ -37,14 +37,41 @@ Sandbox para aprender as 7 tecnologias. Sistema de monitoramento de estoque com 
 - `git init`, `add`, `commit -m`, `status`, `branch -m main`
 - README.md criado e commitado
 - Repositório no GitHub: vitorpielec/estoque-alerta
-- `git push` via `gh repo create`
+- `git push` via `gh repo create` (HTTPS), depois trocou pra SSH
+- Chave SSH gerada e adicionada no GitHub pra autenticar
+- `git remote remove origin` + `git remote add origin git@github.com:vitorpielec/estoque-alerta.git`
 - Usa lazygit como atalho visual (já sabe os comandos base)
+- 3 commits no total (README inicial, AGENTS.md, regras de ensino)
 
-### PostgreSQL — Próximo passo
-Plano:
-1. Rodar PostgreSQL via Docker
-2. Criar banco da Sousou Perfumes (produtos, pedidos, clientes)
-3. Inserir dados, fazer consultas
+### Docker — Parcial
+- Sabe rodar container Docker manualmente (`docker run --name ... -d postgres:16-alpine`)
+- Container **postgres-sousou** rodando (PostgreSQL 16 Alpine, banco `sousou_perfumes`, user `sousou_user`)
+- Porta 5432 mapeada pro host
+- Entende diferença de container vs imagem
+- Imagem n8n baixada mas container nunca iniciado
+- Não usa docker-compose ainda
+
+### PostgreSQL — Instalado mas não usado ainda
+- `psql` client instalado (versão 16.13)
+- AINDA NÃO conectou no banco
+- NENHUMA tabela criada ainda
+- Próximo passo: `\l`, `\c`, CREATE TABLE, INSERT, SELECT
+
+### Python — Não iniciado
+- Python 3.14.5 instalado no sistema
+- Nenhum script criado
+- Nenhuma lib instalada (nem venz criado)
+
+### n8n — Não iniciado
+- Imagem Docker `docker.n8n.io/n8nio/n8n:latest` baixada
+- Container nunca foi rodado
+
+### APIs — Não iniciado
+
+# Problemas de Infra Conhecidos
+
+- **api.github.com bloqueado pela rede** (timeout) — `github.com` funciona normalmente. Solução: usar SSH em vez de HTTPS para Git.
+- **Sem placa de vídeo dedicada** (ThinkPad T480) — Ollama não roda bem
 
 # Sessões
 
@@ -54,6 +81,17 @@ Plano:
 - Criou repositório local e remoto (GitHub)
 - Entendeu: staging area, commits, `--` vs `-`, `origin`
 - Criou primeiro README.md com Nano
+
+## Sessão 2 — Git SSH + Infra (12/06/2026)
+- Aprendeu o que é SSH e pra que serve
+- Gerou chave com `ssh-keygen -t ed25519`
+- Adicionou chave pública no GitHub via navegador
+- Trocou remote de HTTPS pra SSH
+- Fez `git push` funcionar com SSH
+- Removeu containers antigos (`postgres_local`, `n8n_local`) e recriou `postgres-sousou` manualmente
+- Instalou `psql` (postgresql16) no Fedora
+- Adicionou regras de ensino no AGENTS.md
+- Atualizou AGENTS.md pro estado atual de aprendizado
 
 # Regras para o Professor (IA)
 
