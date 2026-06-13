@@ -6,7 +6,13 @@
 - Mora com: Mãe e irmão de 3 anos
 - Experiência: Vendedor na Stanley (Shopping Iguatemi) — diferencial em atendimento
 - Estilo de aprendizado: Aprende fazendo, odeia teoria. Precisa de contexto e problema real.
-- Objetivo de vida: Vida simples no interior, trabalho remoto, aliviar a carga da mãe
+- Objetivo de vida: Liberdade geográfica e financeira — viajar Brasil, festas, shape, conhecer gente
+- Estilo: Empreendedor de automações, não CLT tradicional
+- Metas paralelas: shape na academia, jiu-jitsu, confiança, cortisol baixo
+- Família: aliviar carga da mãe, levar irmão Dudu (3 anos) pra aventuras
+- Prova real: loja da mãe vendeu R$ 20 mil em UM dia (quinta) — negócio valida a necessidade de automação
+- Modelo de negócio desejado: SaaS + freela em dólar + investimentos, sem faculdade formal
+- Futuro: contratar 2 pessoas (redes + produção de automações)
 
 # Projeto Real da Mãe
 
